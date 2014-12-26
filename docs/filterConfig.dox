@@ -1,0 +1,10 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~thresholdLow" : \b [int] Low threshold for Canny. min: 0, default: 50, max: 155
+- \b "~thresholdHigh" : \b [int] High threshold for Canny. min: 0, default: 150, max: 255
+- \b "~edgeColorRed" : \b [int] Edge Color Red Value min: 0, default: 255, max: 255
+- \b "~edgeColorGreen" : \b [int] Edge Color Green Value min: 0, default: 0, max: 255
+- \b "~edgeColorBlue" : \b [int] Edge Color Blue Value min: 0, default: 0, max: 255
+

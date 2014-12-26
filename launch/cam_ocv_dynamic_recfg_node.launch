@@ -1,0 +1,11 @@
+<launch>
+  <group ns="/cam">
+    <node pkg="ahb_ros_opencv_dynamic_reconfigure_example" type="ahb_ros_opencv_dynamic_reconfigure_example_node" name="ocv_dynamic_recfg_node">
+      <param name="thresholdLow" value="60" />
+      <param name="thresholdHigh" value="150" />
+      <param name="edgeColorRed" value="0" />
+      <param name="edgeColorGreen" value="0" />
+      <param name="edgeColorBlue" value="255" />
+    </node>
+  </group>
+</launch>

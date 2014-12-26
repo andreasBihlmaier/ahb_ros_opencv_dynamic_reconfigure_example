@@ -1,0 +1,11 @@
+\subsubsection usage Usage
+\verbatim
+<node name="ahb_ros_opencv_dynamic_reconfigure_example" pkg="ahb_ros_opencv_dynamic_reconfigure_example" type="ahb_ros_opencv_dynamic_reconfigure_example">
+  <param name="thresholdLow" type="int" value="50" />
+  <param name="thresholdHigh" type="int" value="150" />
+  <param name="edgeColorRed" type="int" value="255" />
+  <param name="edgeColorGreen" type="int" value="0" />
+  <param name="edgeColorBlue" type="int" value="0" />
+</node>
+\endverbatim
+
